@@ -1,0 +1,8 @@
+/*pseudocalses
+pseudoclase hover, sirve para cambiar el color del box cuando el mouse pasa por encima
+pseudoclase active, sirve para poder generar un efecto cuando el usuario mentiene pulsado algún boton
+pseudoclase Focus, es decir cuando seleccionas un elemento y este hace un efecto para saber que está selecionado
+pseudoelemento after o before. 
+pseudoelemento last y first child, esto nos permite seleccionar el primer o el ultimo elemento. Si se le agrega un número entre parentesis junto a una "N", se eligirá el elemento que concuerde con el número entre ().
+box-sizing; border-box
+/* el orden es 1-ID 2-CLASS 3-ETIQUETA, esto importa por el sistema que tiene que es en cascada */
