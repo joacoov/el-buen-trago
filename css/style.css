@@ -181,19 +181,20 @@ body{
     border-color: black;
 }
 
-.vodka{
-    margin-left: 250px;
-    margin-top: 80px;
-    width: 170px;
+
+.boton_vodka{
+    width: 150px;
     height: 250px;
 }
 
-.whisky{
-    margin-left: 340px;
-    margin-top: 80px;
-    width: 170px;
+.boton_whisky{
+    background-color: rgb(140, 4, 4);
+    width: 150px;
     height: 250px;
 }
+
+
+
 
 .catalogo-espumantes{
     text-align: center;
@@ -202,6 +203,24 @@ body{
     width: 200px;
     height: 40px;
 }
+
+.contenedor_champagne{
+    display: flex;
+    width: 100%;
+    height: 400px;
+    background-color: grey;
+    justify-content: center;
+}
+
+.contenedor_lista_champagne{
+    display: flex;
+    background-color: whitesmoke;
+    width: 80%;
+    height: 350px;
+    margin-top: 25px; 
+    justify-content: center;
+}
+
 
 .champagne{
     margin-left: 512px;
