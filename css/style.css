@@ -73,15 +73,20 @@ body{
     background-color: rgb(140, 4, 4);
 }
 
+.contenedor_texto{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+}
 
 #texto{
-    background-color: rgb(120, 12, 12);
-    color: white;
     width: 900px;
     height: 230px;
-    margin: 15px;
-    margin-left: 185px;
+    background-color: rgb(120, 12, 12);
+    color: white;
 }
+
 /*esto sería de color blanco*/
 .principal{
     color: white;
@@ -211,6 +216,11 @@ body{
     text-align: center;
 }
 
+.row.botones_conteiner{
+    background-color: blue;
+    width: 100%;
+}
+
 .botones_padre{
     height: 300px;
     background-color: rgb(12, 12, 12);
@@ -233,17 +243,23 @@ body{
 }
 
 .carrusel_conteiner{
-    background-color: blue;
     width: 100%;
     height: 500px;
 }
 
 .carousel{
+    justify-content: center;
+    align-content: center;
     width: 600px;
     height: 400px;
     display: flex;
+    margin-left: 325px;
 }
 
+.carousel-item{
+    width: 600px;
+    height: 400px;
+}
 
 .footer_conteiner{
     width: 100%;
