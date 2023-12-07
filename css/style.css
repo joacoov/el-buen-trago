@@ -12,33 +12,34 @@ body{
 }
 
 
-
-/*LOGO Y NOMBRE*/
-.header_vinos{
+.navbar{
     position: sticky;
     top: 0;
     display: flex;
     width: 100%;
     height: fit-content;
     z-index: 10;
+    background-color: none;
 }
 
-.navegador{
+.collapse{
     display: flex;
     position: sticky;
     top: 0;
-    align-items: flex-end;
     width: 100%; 
     justify-content: space-between;
-}
-
-.logo_container{
-    width: 20%;
-    display: flex;
-    align-items: end;
-    justify-content: space-around;
     
 }
+
+
+.logo_container{
+    width: 25%;
+    display: flex;
+    align-items: end;
+    justify-content: space-evenly;
+}
+
+
 .logo{
     width: 60px;
     border: none;
@@ -52,25 +53,26 @@ body{
     font-size: x-large;
 }
 
-
-.menu_nav{
+.navbar-nav{
+    
     list-style: none;
-    width: 45%;
+    width: 50%;
     position: sticky;
     display: flex;
     height: min-content;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: flex-end;
 }
-.menu_nav .seccion{
+.navbar-nav .nav-item{
     background-color: rgb(155, 151, 151);
     padding:3px 5px;
     flex-wrap: wrap;
     display: flex;
 }
-.seccion:hover{
+.nav-item:hover{
     background-color: rgb(140, 4, 4);
 }
+
 
 #texto{
     background-color: rgb(120, 12, 12);
@@ -94,15 +96,9 @@ body{
     padding-top: 45px;
     padding-bottom: 45px;
 }
-.catalogos-vinos ,.catalogos-destilados .catalogo-espumantes .catalogo-fernet{
-    display: flex;
-    justify-content: space-evenly;
-    width: 200px;
-    height: 40px;
 
-}
 .catalogos{
-    margin-left: 550px;
+    
     background-color: rgb(120, 12, 12);
     color: white;
     width: 150px;
@@ -112,34 +108,11 @@ body{
     font-weight: 500;
 }
 
-.carrusel_conteiner{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 400px;
-    margin-top: 40px;
-}
-
-.carrusel{
-    width: 600px;
-    height: 400px;
-    display: flex;
-}
 
 
-.contenedor_botones{
-    width: 100%;
-    height: 200px;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;   
-}
 
-.boton_vino {
-    width: 150px;
-    height: 250px;
-}
+
+
 
 .contenedor_banner{
     width: 100%;
@@ -182,20 +155,6 @@ body{
 }
 
 
-.boton_vodka{
-    width: 150px;
-    height: 250px;
-}
-
-.boton_whisky{
-    background-color: rgb(140, 4, 4);
-    width: 150px;
-    height: 250px;
-}
-
-
-
-
 .catalogo-espumantes{
     text-align: center;
     background-color: rgb(204, 200, 200);
@@ -204,30 +163,7 @@ body{
     height: 40px;
 }
 
-.contenedor_champagne{
-    display: flex;
-    width: 100%;
-    height: 400px;
-    background-color: grey;
-    justify-content: center;
-}
 
-.contenedor_lista_champagne{
-    display: flex;
-    background-color: whitesmoke;
-    width: 80%;
-    height: 350px;
-    margin-top: 25px; 
-    justify-content: center;
-}
-
-
-.champagne{
-    margin-left: 512px;
-    margin-top: 80px;
-    width: 170px;
-    height: 250px;
-}
 
 .catalogo-fernet{
     text-align: center;
@@ -240,13 +176,6 @@ body{
     border-color: black;
 }
 
-.lista_fernet{
-    margin-left: 15px;
-    font-weight: 400;
-    background-color: black;
-    color: white;
-    width: 100%;
-}
 
 .mensajes_wpp{
     background-color: green;
@@ -302,6 +231,19 @@ body{
 .boton_hijo:hover{
     opacity: .50;
 }
+
+.carrusel_conteiner{
+    background-color: blue;
+    width: 100%;
+    height: 500px;
+}
+
+.carousel{
+    width: 600px;
+    height: 400px;
+    display: flex;
+}
+
 
 .footer_conteiner{
     width: 100%;

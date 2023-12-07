@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/grid.css">
     <title>El buen trago</title>
@@ -11,30 +12,47 @@
         
     <header>
 
-        <nav class="navegador">
-            <div class="logo_container">
-                <img src="./img/logo.png" alt="Logo El buen trago" class="logo">
-                <span class="logo_nombre">El buen trago</span>    
-            </div>
-             
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
                 
-            <ul class="menu_nav">
-                
-                <li class="seccion"><a href="./index.html">Inicio</a></li>
+                <div class="collapse navbar-collapse" id="navbarNav">
+
+                    <div class="logo_container">
+                         <img src="./img/logo.png" alt="Logo El buen trago" class="logo">
+                         <span class="logo_nombre">El buen trago</span>    
+                    </div>
                     
-                <li class="seccion"><a href="./vinos.html">Vinos</a></li>
-                    
-                <li class="seccion"><a href="destilados.html">Destilados</a></li>
-                    
-                <li class="seccion"><a href="espumantes.html">Espumantes</a></li>
-                    
-                <li class="seccion"><a href="./fernet.html">Fernet</a></li>
-                    
-                <li class="seccion"><a href="./contacto.html">Contacto</a></li>
-                    
-            </ul>
-                
-        </nav>
+                          <ul class="navbar-nav">
+
+                            <li class="nav-item">
+                              <a class="nav-link active"  href="./index.html">Inicio</a>
+                            </li>
+              
+                            <li class="nav-item">
+                              <a class="nav-link active" href="./vinos.html">Vinos</a>
+                            </li>
+              
+                            <li class="nav-item">
+                              <a class="nav-link active" href="./destilados.html">Destilados</a>
+                            </li>
+              
+                            <li class="nav-item">
+                              <a class="nav-link active" href="./espumantes.html">Espumantes</a>
+                            </li>          
+                            
+                            <li class="nav-item">
+                              <a class="nav-link active" href="./fernet.html">Fernet</a>
+                            </li>          
+                            
+                            <li class="nav-item">
+                              <a class="nav-link active" href="./contacto.html">Contacto</a>
+                            </li>          
+
+                          </ul>
+                                 
+                 </div>
+             </div>
+         </nav>
                 
     </header>
 
@@ -47,34 +65,54 @@
             <p class="descripcion"> Somos un pequeño emprendimiento familiar desde 2023 y nos unimos con una pasión compartida y una visión para crear algo extraordinario. Nuestro viaje comenzó con una idea simple: establecer un negocio familiar que celebre el arte de las bebidas alcohólicas. Basándonos en nuestra experiencia, nos embarcamos en la misión de distribuir una amplia gama de bebidas alcohólicas de alta calidad que satisfagan los gustos cambiantes de los conocedores.               
     </div>
   
-    <div class="catalogos">catálogos</div>
+    <section class="catalogos_general">
+        <div class="catalogos">catálogos</div>
+    </section>
     
     
     <section class="botones_padre">
 
+        
         <div>
             <a href="./vinos.html"><img src="./img/boton link a vinos orig.png" alt="boton vinos" class="boton_hijo"></a>
         </div>
-
+        
         <div>
             <a href="./destilados.html"><img src="./img/boton link destilados orig.png" alt="boton destilados" class="boton_hijo"></a>
         </div>
-
+        
         <div>
             <a href="./espumantes.html"><img src="./img/boton link a espumantes original.png" alt="boton espumantes" class="boton_hijo"></a>
         </div>
-
+        
         <div>
             <a href="./fernet.html"><img src="./img/boton link a fernet orig.png" alt="boton fernet" class="boton_hijo"></a>
         </div>
-
     </section>
-<!--aca va una línea divisora-->
+
 <section class="carrusel_conteiner">
 
-    <div>
-        <img src="./img/vino carrusel.jpg" alt="carrusel de imagenes" class="carrusel">
-    </div> 
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./img/vino carrusel.jpg" class="d-block w-100" alt="imagen vino">
+            </div>
+            <div class="carousel-item">
+                <img src="./img/fernet carrusel.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
 
 </section>
 
@@ -92,6 +130,7 @@
 
 </section>
     
+<script src="./js/bootstrap.js"></script>
     </body>
-    </html>
+</html>
     

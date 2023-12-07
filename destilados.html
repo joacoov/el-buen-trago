@@ -3,58 +3,100 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/grid.css">
     <title>Destilados</title>
 </head>
 <body>
-    <!--Aca va un banner con el titulo Destilados-->
     <header>
 
-        <nav class="navegador">
-            <div class="logo_container">
-                <img src="./img/logo.png" alt="Logo El buen trago" class="logo">
-                <span class="logo_nombre">El buen trago</span>    
-            </div>
-         
-            
-            <ul class="menu_nav">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
                 
-                <li class="seccion"><a href="./index.html">Inicio</a></li>
+                <div class="collapse navbar-collapse" id="navbarNav">
+
+                    <div class="logo_container">
+                         <img src="./img/logo.png" alt="Logo El buen trago" class="logo">
+                         <span class="logo_nombre">El buen trago</span>    
+                    </div>
+                    
+                          <ul class="navbar-nav">
+
+                            <li class="nav-item">
+                              <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                            </li>
+              
+                            <li class="nav-item">
+                              <a class="nav-link" href="./vinos.html">Vinos</a>
+                            </li>
+              
+                            <li class="nav-item">
+                              <a class="nav-link" href="./destilados.html">Destilados</a>
+                            </li>
+              
+                            <li class="nav-item">
+                              <a class="nav-link" href="./espumantes.html">Espumantes</a>
+                            </li>       
+                            
+                            <li class="nav-item">
+                                <a class="nav-link active" href="./fernet.html">Fernet</a>
+                              </li>          
+                              
+                              <li class="nav-item">
+                                <a class="nav-link active" href="./contacto.html">Contacto</a>
+                              </li>    
+                          </ul>
+                                 
+                 </div>
+             </div>
+         </nav>
                 
-                <li class="seccion"><a href="./vinos.html">Vinos</a></li>
-                
-                <li class="seccion"><a href="destilados.html">Destilados</a></li>
-                
-                <li class="seccion"><a href="espumantes.html">Espumantes</a></li>
-                
-                <li class="seccion"><a href="./fernet.html">Fernet</a></li>
-                
-                <li class="seccion"><a href="./contacto.html">Contacto</a></li>
-                
-            </ul>
-            
-        </nav>
-            
     </header>
 
+
+    
     <div class="catalogos_general">
         <h2 class="catalogos-destilados">catálogos</h2>
     </div>
 
-    <!--boton link a vodka-->
-    <!--los botones van a decir el título de la bebida-->
-       <section class="contenedor_botones">
+    <div class="row">
+        <div class="col">
+            <table class="table">
+                <thead class="table cabecera_lista">
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">VINO</th>
+                    <th scope="col">Last</th>
+                    <th scope="col">Handle</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>@mdo</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Jacob</td>
+                    <td>Thornton</td>
+                    <td>@fat</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Larry the Bird</td>
+                    <td>messi</td>
+                    <td>@twitter</td>
+                  </tr>
+                </tbody>
+              </table>
+    </div>
+</div>
 
-           <div class="botones_destilados">
-               <a href="./vodka.html"><img src="./img/boton link vodka.png" alt="Vodkas" class="boton_vodka"></a>
-           </div>
-
-           <div>
-               <img src="./img/" alt="Whisky" class="boton_whisky">
-           </div>
-
-       </section> 
+ 
+ 
     
     <!--aca va una linea divisora-->
     <section class="footer_conteiner">
