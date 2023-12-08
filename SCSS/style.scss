@@ -16,6 +16,7 @@ body{
         border: 3px;
         border-style: solid;
         border-color: grey;
+        font-weight: bolder;
     }
 }
 .contenedor_texto{
@@ -28,6 +29,9 @@ body{
         height: 230px;
         background-color: rgb(120, 12, 12);
         color: white;
+        text-align:center;
+        font-size: large;
+        font-weight: 600;
     }
 }
 
