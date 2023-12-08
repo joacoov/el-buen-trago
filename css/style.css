@@ -70,9 +70,7 @@ body{
     display: flex;
 }
 */
-.header.bg-light.py-5{
-    
-}
+
 .navegador-item:hover{
     background-color: rgb(140, 4, 4);
 }
@@ -90,7 +88,6 @@ body{
     color: white;
 }
 
-/*esto sería de color blanco*/
 .principal{
     color: white;
     margin-left: 500px;

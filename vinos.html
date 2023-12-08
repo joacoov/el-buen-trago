@@ -2,60 +2,48 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
     <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/bootstrapjuampi.css">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/grid.css">
     <title>El buen trago</title>
 </head>
 <body>
     
-    <header>
+  <nav class="navbar navbar-expand-sm sticky-top ">
 
-        <nav class="navbar navbar-expand-lg">
-            <div class="container-fluid">
-                
-                <div class="collapse navbar-collapse" id="navbarNav">
+    <div class="container">
 
-                    <label class="logo_container">
-                         <img src="./img/logo.png" alt="Logo El buen trago" class="logo">
-                         <span class="logo_nombre">El buen trago</span>    
-                    </label>
-                    
-                          <ul class="navbar-nav">
+        <a class="navbar-brand" href="./index.html"> 
+          
+            <img src="./img/logo.png" alt="Logo El buen trago" class="logo"> 
+            <h2 class="logo_nombre">El buen trago</h2>
+          
+        </a> 
 
-                            <li class="nav-item">
-                              <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
-                            </li>
-              
-                            <li class="nav-item">
-                              <a class="nav-link" href="./vinos.html">Vinos</a>
-                            </li>
-              
-                            <li class="nav-item">
-                              <a class="nav-link" href="./destilados.html">Destilados</a>
-                            </li>
-              
-                            <li class="nav-item">
-                              <a class="nav-link" href="./espumantes.html">Espumantes</a>
-                            </li>     
-                            
-                            <li class="nav-item">
-                                <a class="nav-link active" href="./fernet.html">Fernet</a>
-                              </li>          
-                                
-                              <li class="nav-item">
-                                <a class="nav-link active" href="./contacto.html">Contacto</a>
-                              </li> 
-                               
-                          </ul>
-                                 
-                 </div>
-             </div>
-         </nav>
-                
-    </header>
+        <div class="collapse navbar-collapse" id="navbar1">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="./vinos.html">Vinos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./destilados.html">Destilados</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./espumantes.html">Espumantes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./fernet.html">Fernet</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </div>
 
+    </div>
+
+</nav>
     
     <div class="contenedor_banner">
         <span><img src="./img/banner vinos a editar(2).jpg" alt="banner de vinos" class="banner_vinos"></span>
@@ -66,6 +54,82 @@
         <h2 class="catalogo_vino">catálogos</h2>
     </div>
     
+    <div class="row">
+        <div class="col">
+            <table class="table">
+                <thead class="table cabecera_lista">
+                  <tr>
+                    
+                    <th scope="col">Tipo de vino</th>
+                    <th scope="col">Tamaño</th>
+                    <th scope="col">Precio</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    
+                    <td>Dv Catena Malbec</td>
+                    <td>750ml</td>
+                    <td>$1850</td>
+                  </tr>
+                  <tr>
+                    
+                    <td>Dv Catena Cabernet</td>
+                    <td>750ml</td>
+                    <td>$2000</td>
+                  </tr>
+                  <tr>
+                    
+                    <td>Alma Mora Malbec</td>
+                    <td>750ml</td>
+                    <td>$1900</td>
+                  </tr>
+                  <tr>
+                    
+                    <td>Alma Mora Cabernet</td>
+                    <td>750ml</td>
+                    <td>$2200</td>
+                  </tr>
+                  <tr>
+                    
+                    <td>Ruttini Malbec</td>
+                    <td>750ml</td>
+                    <td>$3000</td>
+                  </tr>
+                  <tr>
+                    
+                    <td>Ruttini Cabernet</td>
+                    <td>750ml</td>
+                    <td>$3450</td>
+                  </tr>
+                  <tr>
+                    
+                    <td>El Enemigo Malbec</td>
+                    <td>750ml</td>
+                    <td>$1750</td>
+                  </tr>
+                  <tr>
+                    
+                    <td>El Enemigo Cabernet</td>
+                    <td>750ml</td>
+                    <td>$1900</td>
+                  </tr>
+                  <tr>
+                    
+                    <td>Cordero con piel de lobo Malbec</td>
+                    <td>750ml</td>
+                    <td>$1850</td>
+                  </tr>
+                  <tr>
+                    
+                    <td>Cordero con piel de lobo Cabernet</td>
+                    <td>750ml</td>
+                    <td>$2100</td>
+                  </tr>
+                </tbody>
+              </table>
+    </div>
+</div>
 
 
     <section class="footer_conteiner">
