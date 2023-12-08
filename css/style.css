@@ -12,75 +12,27 @@ body{
 }
 
 
-/*.navbar{
-    position: sticky;
-    top: 0;
+.contenedor_bienvenida{
     display: flex;
-    width: 100%;
-    height: fit-content;
-    z-index: 10;
-    background-color: none;
+    height: 70px;
+    text-align: center;
+    justify-content: center;
 }
-
-.collapse{
-    display: flex;
-    position: sticky;
-    top: 0;
-    width: 100%; 
-    justify-content: space-between;
-    
+.principal{
+    color: rgb(132, 0, 0);
+    border: 3px;
+    border-color: grey;
+    border-style: solid;
+    background-color: whitesmoke;
 }
 
 
-.logo_container{
-    width: 25%;
-    display: flex;
-    align-items: end;
-    justify-content: space-evenly;
-}
-
-
-.logo{
-    width: 60px;
-    border: none;
-    border-radius: 30px;
-}
-
-
-.logo_nombre{
-    color: rgb(120, 12, 12);
-    font-weight: bolder;
-    font-size: x-large;
-}
-
-.navbar-nav{   
-    list-style: none;
-    width: 50%;
-    position: sticky;
-    display: flex;
-    height: min-content;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-}
-
-.navbar-nav .navegador-item{
-    background-color: rgb(155, 151, 151);
-    padding:3px 5px;
-    flex-wrap: wrap;
-    display: flex;
-}
-*/
-
-.navegador-item:hover{
-    background-color: rgb(140, 4, 4);
-}
 .contenedor_texto{
     width: 100%;
     height: 250px;
     display: flex;
     justify-content: center;
 }
-
 #texto{
     width: 900px;
     height: 230px;
@@ -88,10 +40,7 @@ body{
     color: white;
 }
 
-.principal{
-    color: white;
-    margin-left: 500px;
-}
+
 .descripcion{
     text-align: center;
     font-size: large;
@@ -102,32 +51,15 @@ body{
     padding-bottom: 45px;
 }
 
+
 .catalogos{
     
+    width: 200px;
+    height: 40px;
     background-color: rgb(120, 12, 12);
     color: white;
-    width: 150px;
-    height: 30px;
-    font-size: x-large;
     text-align: center;
-    font-weight: 500;
-}
-
-
-
-
-
-
-
-.contenedor_banner{
-    width: 100%;
-    height: 250px;
-}
-
-.banner_vinos{
-    width: 100%;
-    height: 100%;
-    
+    justify-content: center;
 }
 
 .catalogos_general{
@@ -148,9 +80,22 @@ body{
     justify-content: center;
 }
 
+
 .catalogos-destilados{
+    text-align: center;
+    background-color: rgb(147, 147, 147);
+    color: rgb(222, 217, 217);
     width: 200px;
-    height: 40px;
+    height: 45px;
+    border: 3px;
+    border-color: white;
+    border-style: solid;
+}
+
+
+.catalogo-espumantes{
+    width: 200px;
+    height: 45px;
     background-color: white;
     color: gray;
     text-align: center;
@@ -160,51 +105,17 @@ body{
 }
 
 
-.catalogo-espumantes{
-    text-align: center;
-    background-color: rgb(204, 200, 200);
-    color: rgb(4, 4, 4);
-    width: 200px;
-    height: 40px;
-}
-
-
-
 .catalogo-fernet{
     text-align: center;
     background-color: white;
     color: black;
     width: 200px;
-    height: 40px;
+    height: 45px;
     border: 3px;
     border-style: double;
     border-color: black;
 }
 
-
-.mensajes_wpp{
-    background-color: green;
-    margin-left: 500px;
-    margin-top: 40px;
-    height: 20px;
-    width: 190px;
-}
-
-.mensajes_ig{
-    background-color: rgb(201, 33, 61);
-    margin-left: 500px;
-    margin-top: 20px;
-    height: 20px;
-    width: 260px;
-}
-
-.mensajes_mail{
-    background-color: rgb(183, 3, 3);
-    margin-left: 500px;
-    margin-top: 20px;
-    height: 20px;
-    width: 150px;
-}
 
 .despedida{
     margin-left: 400px;
@@ -214,11 +125,6 @@ body{
     color: white;
     width: 450px;
     text-align: center;
-}
-
-.row.botones_conteiner{
-    background-color: blue;
-    width: 100%;
 }
 
 .botones_padre{
