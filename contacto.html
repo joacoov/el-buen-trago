@@ -17,10 +17,10 @@
                 
                 <div class="collapse navbar-collapse" id="navbarNav">
 
-                    <div class="logo_container">
+                    <label class="logo_container">
                          <img src="./img/logo.png" alt="Logo El buen trago" class="logo">
                          <span class="logo_nombre">El buen trago</span>    
-                    </div>
+                    </label>
                     
                           <ul class="navbar-nav">
 
@@ -56,16 +56,16 @@
                 
     </header>
 
-<!--todavía no esta definido el mail ni el whatsapp-->
-        <div class="mensajes_wpp">
-            <a href="" class="wpp1">Hablanos al whatsapp</a>
-        </div>
-        <div class="mensajes_ig">
-            <a href="https://www.instagram.com/direct/t/17844037830003552" class="ig1">Hablanos a nuestro instargram</a>
-        </div>
-        <div class="mensajes_mail">
-            <a href="" class="mail1">Hablanos al mail</a>
-        </div>
+<section class="formulario_conteiner">
+    <div class="formulario ">
+        <label for="formControlInput" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="formControlInput" placeholder="ingrese su mail">
+        <label for=""></label>    
+            <input class="form-control form-control-lg" type="text" placeholder="ingrese su nombre" aria-label=".form-control-lg">
+            <input class="form-control form-control-lg" type="text" placeholder="ingrese su apellido" aria-label=".form-control-lg">
+    </div>
+</section>
+ 
    
     <div class="despedida">
         <h1>¡Gracias por tu visita!</h1>
@@ -84,5 +84,6 @@
         </div>
     
     </section>
+    <script src="./js/bootstrap.js"></script>
 </body>
 </html>
