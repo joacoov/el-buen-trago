@@ -1,0 +1,134 @@
+@import "./partials/fonts";
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(12, 12, 12);
+}
+
+
+.contenedor_bienvenida{
+    display: flex;
+    justify-content: center;
+
+    .principal{
+        color: white;
+        background-color: rgb(120, 12, 12);
+        border: 3px;
+        border-style: solid;
+        border-color: grey;
+    }
+}
+.contenedor_texto{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    .texto_escrito{
+        width: 900px;
+        height: 230px;
+        background-color: rgb(120, 12, 12);
+        color: white;
+    }
+}
+
+.catalogos_general{
+    width: 100%;
+    height: 45px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.catalogos{
+    background-color: rgb(120, 12, 12);
+    color: white;
+    width: 150px;
+    height: 30px;
+    font-size: x-large;
+    text-align: center;
+    font-weight: 500;
+}
+.catalogo_vino{
+    width: 200px;
+    height: 40px;
+    background-color: rgb(120, 12, 12);
+    text-align: center;
+    justify-content: center;
+}
+
+.catalogos-destilados{
+    width: 200px;
+    height: 40px;
+    background-color: white;
+    color: gray;
+    text-align: center;
+    border: 3px;
+    border-style: double;
+    border-color: black;
+}
+
+
+.catalogo-espumantes{
+    text-align: center;
+    background-color: rgb(204, 200, 200);
+    color: rgb(4, 4, 4);
+    width: 200px;
+    height: 40px;
+}
+
+
+
+.catalogo-fernet{
+    text-align: center;
+    background-color: white;
+    color: black;
+    width: 200px;
+    height: 40px;
+    border: 3px;
+    border-style: double;
+    border-color: black;
+}
+
+
+.botones_padre{
+    height: 300px;
+    background-color: rgb(12, 12, 12);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    .boton_hijo{
+        height: 200px;
+        width: 125px;
+        align-items: center;
+        border: 1px solid;
+        border-radius: 5px;
+        border-color: white;  
+    }
+}
+
+.carrusel_conteiner{
+    width: 100%;
+    height: 500px;
+
+    .carousel{
+        width: 600px;
+        height: 400px;
+        display: flex;
+        margin-left: 325px;
+    }
+}
+
+.footer_conteiner{
+    width: 100%;
+    height: 200px;
+    margin-top: 50px;
+    background-color: rgb(140, 4, 4);
+    color: white;
+    .footer{
+        width: 100%;
+        height: 100%;
+        margin-left: 30px;
+    }
+}

@@ -78,9 +78,10 @@ body{
     height: 250px;
     display: flex;
     justify-content: center;
+    background-color: red;
 }
 
-#texto{
+.texto_escrito{
     width: 900px;
     height: 230px;
     background-color: rgb(120, 12, 12);
@@ -116,19 +117,6 @@ body{
 
 
 
-
-
-
-.contenedor_banner{
-    width: 100%;
-    height: 250px;
-}
-
-.banner_vinos{
-    width: 100%;
-    height: 100%;
-    
-}
 
 .catalogos_general{
     width: 100%;
@@ -182,29 +170,9 @@ body{
 }
 
 
-.mensajes_wpp{
-    background-color: green;
-    margin-left: 500px;
-    margin-top: 40px;
-    height: 20px;
-    width: 190px;
-}
 
-.mensajes_ig{
-    background-color: rgb(201, 33, 61);
-    margin-left: 500px;
-    margin-top: 20px;
-    height: 20px;
-    width: 260px;
-}
 
-.mensajes_mail{
-    background-color: rgb(183, 3, 3);
-    margin-left: 500px;
-    margin-top: 20px;
-    height: 20px;
-    width: 150px;
-}
+
 
 .despedida{
     margin-left: 400px;
@@ -252,11 +220,6 @@ body{
     height: 400px;
     display: flex;
     margin-left: 325px;
-}
-
-.carousel-item{
-    width: 600px;
-    height: 400px;
 }
 
 .footer_conteiner{

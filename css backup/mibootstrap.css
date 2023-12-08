@@ -1,0 +1,45 @@
+.collapse{
+    display: flex;
+    position: sticky;
+    top: 0;
+    width: 100%; 
+    justify-content: space-between;
+    
+}
+
+.navbar-brand{
+    display: flex;
+    width: 100%;
+    border: none;
+    border-radius: 30px;
+}
+
+.logo_conteiner{
+    width: 100%;
+}
+
+.logo{
+    width: 70px;
+    border: none;
+    border-radius: 35px;
+}
+
+.logo_nombre{
+    color: rgb(120, 12, 12);
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+
+
+
+
+.nav-item{
+    background-color: rgb(155, 151, 151);
+    padding:3px 5px;
+    flex-wrap: wrap;
+    display: flex;
+}
+.nav-item:hover{
+    background-color: rgb(120, 12, 12);
+}
