@@ -10,55 +10,88 @@
 </head>
 <body>
     
-  <nav class="navbar navbar-expand-sm sticky-top ">
+    <nav class="navbar navbar-expand-sm sticky-top ">
 
-    <div class="container">
-
-        <a class="navbar-brand" href="./index.html"> 
-          
-            <img src="./img/logo.png" alt="Logo El buen trago" class="logo"> 
-            <h2 class="logo_nombre">El buen trago</h2>
-          
-        </a> 
-
-        <div class="collapse navbar-collapse" id="navbar1">
-            <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="./vinos.html">Vinos</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./destilados.html">Destilados</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./espumantes.html">Espumantes</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./fernet.html">Fernet</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./contacto.html">Contacto</a>
-                </li>
-            </ul>
+        <div class="container">
+    
+            <a class="navbar-brand" href="./index.html"> 
+              
+                <img src="./img/logo.png" alt="Logo El buen trago" class="logo"> 
+                <h2 class="logo_nombre">El buen trago</h2>
+              
+            </a> 
+    
+            <div class="collapse navbar-collapse" id="navbar1">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./vinos.html">Vinos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./destilados.html">Destilados</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./espumantes.html">Espumantes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./fernet.html">Fernet</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+    
         </div>
-
-    </div>
-
-</nav>
-
-<section class="formulario_conteiner">
-    <div class="formulario ">
-        <label for="formControlInput" class="form-label">Email address</label>
-            <input type="email" class="form-control" id="formControlInput" placeholder="ingrese su mail">
-        <label for=""></label>    
-            <input class="form-control form-control-lg" type="text" placeholder="ingrese su nombre" aria-label=".form-control-lg">
-            <input class="form-control form-control-lg" type="text" placeholder="ingrese su apellido" aria-label=".form-control-lg">
-    </div>
-</section>
- 
+    
+    </nav>
+    <h2 class="contacto_titulo">Contacto</h2>
+      <section class="formulario_conteiner">
+        <form action="" class="form__contacto">
+          <div class="form__control">
+            <input type="text" placeholder="nombre" required/>
+          </div>
+          <div class="form__control">
+            <input type="text" placeholder="apellido" required/>
+          </div>
+          <div class="form__control">
+            <input type="email" placeholder="Email" required/>
+          </div>
+          
+          <div class="form__control">
+            <textarea placeholder="Mensaje">
+            </textarea>
+          </div>
+          <div class="form__control">
+            <input type="checkbox" id="terminos"/>
+            <label for="terminos">Acepto los términos y condiciones</label>
+          </div>
+          <div class="form__control">
+            <button type="submit"  class="boton boton-submit">Enviar</button>
+          </div>
+        </form>
+      </section>
+      <div class="img__container">
+        
+      </div>
+    </section>
+    <!-- <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Email</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Sugerencias</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div> -->
+  
    
-    <div class="despedida">
-        <h1>¡Gracias por tu visita!</h1>
-    </div>
+<div class="container">
+ 
+    <h1 class="despedida">¡Gracias por tu visita!</h1>
+    
+</div>
     
     <!--aca va una linea divisora-->
 
